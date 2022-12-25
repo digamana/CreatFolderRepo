@@ -1,5 +1,7 @@
 # CreatFolderRepo
 使用在github.io Blog的輔助工具
+
+
 ## 功能1 自動建立圖片資料夾 
 功能1 實際情況說明 :
 如果 _posts\ 底下有個檔名叫做 2022-11-30-side-project-powercontroller.md  
@@ -19,3 +21,7 @@
 之所以有功能2的原因  
 因為安裝Ruby在本地看blog時, MD檔打PNG 但圖片實際是png時可以正常顯示  
 但Push到github從外部網站瀏覽時,會因為大小寫有區分導致,所以檔名不一樣,會讓圖片無法正常顯示  
+
+## Github.io的檔案結構
+CreatFolder.exe要放在Github.io的專案底下,如圖所示
+![Desktop View](/CreatFolder/CreatFolder/IntroPath.png)
